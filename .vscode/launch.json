@@ -1,0 +1,15 @@
+{
+    "configurations": [
+    {
+        "type": "mojo-lldb",
+        "request": "launch",
+        "name": "Launch",
+        "program": "${workspaceRoot}/raytrace",
+        "args": [],
+        "env": [
+            "MOJO_PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.11.so"
+        ],
+        "cwd": "${workspaceRoot}"
+    }
+    ]
+}
